@@ -31,7 +31,6 @@ const showContact = () => {
       <p class="card-text">Price ->${{ car.price }}</p>
       <button id="button" @click="showContact">Clic for contact</button>
     </div>
-
     <RouterView />
     <GoBack />
   </div>

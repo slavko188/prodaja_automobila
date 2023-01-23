@@ -1,5 +1,4 @@
 // DEFINE ROUTER RULES //
-
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
