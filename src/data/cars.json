@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "VW Golf",
+    "img": "https://i.ytimg.com/vi/TZ_NVQDeH00/maxresdefault.jpg",
+    "price": 10000,
+    "year": 2011,
+    "contact": {
+      "dealer": "Micels",
+      "number": 12343234
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mercedes",
+    "img": "https://group.mercedes-benz.com/bilder/produkte/pkw/mercedes-benz/eqe/eqe-w614xh345-cutout.jpg",
+    "price": 15000,
+    "year": 2012,
+    "contact": {
+      "dealer": "Jonson",
+      "number": 22222555
+    }
+  },
+  {
+    "id": 3,
+    "name": "Audi",
+    "img": "https://media.autoexpress.co.uk/image/private/s--oSvWw2tM--/v1664984236/evo/2022/10/Audi%20RS4%20Competition%20review-9.jpg",
+    "price": 12000,
+    "year": 2014,
+    "contact": {
+      "dealer": "Robinson",
+      "number": 3333444
+    }
+  },
+  {
+    "id": 4,
+    "name": "BMW",
+    "img": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2022/edition-50-jahre/bmw-m4-50-jahre-bmw-m-stage-teaser-02.jpg",
+    "price": 9000,
+    "year": 2012,
+    "contact": {
+      "dealer": "Jonson",
+      "number": 55556677
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ford",
+    "img": "https://www.khmertimeskh.com/wp-content/uploads/2021/09/Cambodia-to-host-Ford-Motor-assembly-factory.jpg",
+    "price": 7000,
+    "year": 2010,
+    "contact": {
+      "dealer": "Jonson",
+      "number": 67899990
+    }
+  }
+]
