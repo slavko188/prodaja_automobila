@@ -2,13 +2,17 @@
 import { useRoute, useRouter, RouterView } from "vue-router";
 import cars from "@/data/cars.json";
 import GoBack from "@/components/GoBack.vue";
+import { ref, onBeforeMount } from "vue";
 
 const route = useRoute(); //ne prikazuju se podaci kad nema route.Ima Id u URL,ali nema podataka.
 const router = useRouter();
+const car = ref(null);
 
 const carId = parseInt(route.params.id);
 
-const car = cars.find((car) => car.id === carId); // pronadje auto
+onBeforeMount(() => {
+  car.value = cars.find((car) => car.id === carId); // pronadje auto prije montiranja komponente.
+});
 
 const showContact = () => {
   if (carId === 4) return;
